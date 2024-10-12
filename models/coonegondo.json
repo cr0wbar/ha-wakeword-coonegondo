@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "coonegondo",
+  "author": "Guglielmo De Concini",
+  "website": "https://github.com/cr0wbar/ha-wakeword-coonegondo",
+  "model": "./coonegondo.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
+  }
+}
